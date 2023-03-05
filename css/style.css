@@ -8,15 +8,15 @@
     content: "";
     clear: both;
     display: block;
-  }
-  
-  [class*="col-"] {
+}
+
+[class*="col-"] {
     float: left;
     padding: 15px;
-  }
+}
 
 .content {
-   background-color: aquamarine;
+    background-color: aquamarine;
     width: 80%;
     margin: 5% auto;
     padding: 2%;
@@ -24,9 +24,8 @@
 }
 
 .row {
-
     display: inline-block;
-width: 100%;
+    width: 100%;
 }
 
 header {
@@ -38,28 +37,28 @@ header {
 }
 
 aside {
-
     background-color: yellowgreen;
     display: inline-block;
     text-align: center;
 }
+
 h1 {
     text-align: center;
 }
 
 article {
-text-align: justify;
+    text-align: justify;
     margin: 0;
     background-color: rgb(98, 104, 88);
     display: inline-block;
     justify-content: left;
 }
+
 ul {
-   
     color: red;
     display: inline-block;
-  
 }
+
 li {
     list-style-type: none;
     font-size: large;
@@ -75,28 +74,64 @@ button {
     background-color: green;
     color: whitesmoke;
     font-size: larger;
-    
+
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 
 @media only screen and (max-width: 768px) {
-   [class*="col-"] {
-    width: 100%;
-  }
-  .btn {
-    width: 95%;
-   }
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .btn {
+        width: 95%;
+    }
 }
